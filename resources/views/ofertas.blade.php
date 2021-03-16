@@ -47,7 +47,7 @@
         <div class="card">
             <div class="card-header">
                 <i class="fa fa-gem"> </i>Productos y servicios
-                <h5><a class="btn btn-info float-right" href="catalogo.html" role="button">Regresar</a></h5>            </div>
+                <h5><a class="btn btn-info float-right" href="{{ route('multitexti') }}" role="button">Regresar</a></h5>            </div>
             <div class="container ">
                 <div class="row">
                     <div class="col-md">

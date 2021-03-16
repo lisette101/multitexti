@@ -47,19 +47,19 @@
             <div class="card testimonial-card">
                 <div class="card-up rainy-ashville-gradient">
                 </div>
-                <div class="avatar mx-auto"><img src="img/yo.jpg" class="rounded-circle img-responsive" alt="Example photo">
+                <div class="avatar mx-auto">
                   <div class="card-body">
                     </div><div class="card">
                       <div class="card-header">
-                        <h5><a class="btn btn-info float-right" href="formulario_perfil.html" role="button">Editar</a>Mi informacion </h5>
+                        <h5><a class="btn btn-info float-right" href="{{ route('formulario_perfil') }}"role="button">Editar</a>Mi informacion </h5>
                       </div>
                       <div class="card-body">
-                        <p class="font-weight-bold">Nombre</p><p>Jan Carlo</p>
-                        <p class="font-weight-bold">Apellido Paterno</p><p>Guzmán </p>
-                        <p class="font-weight-bold">Apellido Materno</p><p>Sánchez  </p>
-                        <p class="font-weight-bold">RFC</p><p>GUSJ010503KC9</p>
-                        <p class="font-weight-bold">Número de teléfono</p><p>+52 7223905579</p>
-                        <p class="font-weight-bold">Correo electrónico</p><p>al221910462@gmail.com</p>
+                        <p class="font-weight-bold">Nombre</p><p>      </p>
+                        <p class="font-weight-bold">Apellido Paterno</p><p></p>
+                        <p class="font-weight-bold">Apellido Materno</p><p> </p>
+                        <p class="font-weight-bold">RFC</p><p></p>
+                        <p class="font-weight-bold">Número de teléfono</p><p></p>
+                        <p class="font-weight-bold">Correo electrónico</p><p></p>
                       </div>
                     </div>
                   </div>

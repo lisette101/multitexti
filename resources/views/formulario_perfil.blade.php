@@ -48,11 +48,11 @@
          <div class="card testimonial-card">
           <div class="card-up rainy-ashville-gradient">
           </div>
-          <div class="avatar mx-auto"><img src="img/yo.jpg" class="rounded-circle img-responsive" alt="Example photo">
+          <div class="avatar mx-auto"><img src="" class="rounded-circle img-responsive" alt="Example photo">
             <div class="card-body">
               </div><div class="card">
                 <div class="card-header">
-                  <h5><a class="btn btn-info float-right" href="perfil.html" role="button">Guardar</a>Mi informacion </h5>
+                  <h5><a class="btn btn-info float-right" href="{{ route('perfil') }}" role="button">Guardar</a>Mi informacion </h5>
                 </div>
                 <div class="card-body">
                     <div class="form-group">
