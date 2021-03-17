@@ -46,7 +46,7 @@
     <div class="container mt-3">
         <div class="card">
             <div class="card-header">
-                <h5><a class="btn btn-info float-right" href="formulario_productos.html" role="button">Nuevo producto</a>Productos </h5>
+                <h5><a class="btn btn-info float-right" href="{{ route('formulario_productos') }}" role="button">Nuevo producto</a>Productos </h5>
             </div>
 
             <div class="container ">
@@ -55,7 +55,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="img_productos/telas.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Telas de origen vegetal</p>  <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                <p class="card-text">Telas de origen vegetal</p>  <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="img_productos/telas2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Telas de origen animal</p><a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span> </div>
+                                <p class="card-text">Telas de origen animal</p><a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span> </div>
                         </div>
                     </div>
                     <div class="col-md">
@@ -71,7 +71,7 @@
                             <img src="img_productos/playera1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Playeras subliminales a ¡tú estilo!</p>
-                                <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                             <img src="img/SB5000352596_2p.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Playeras cuello de tortuga </p>
-                                  <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                  <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             <img src="img/pans.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <p class="card-text">Pans</p>
-                                    <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                    <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                             <img src="img/chamarras.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Chamarras</p>
-                                <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <img src="img/Sudadera-negra-sin-personalizar.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Sudaderas</p>
-                                <a class="btn btn-dark float-right" href="modificar_productos.php" role="button">Modificar</a></span>
+                                <a class="btn btn-dark float-right" href="{{ route('modificar_productos') }}" role="button">Modificar</a></span>
                             </div>
                         </div>
                     </div>

@@ -69,33 +69,33 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Anillo Oro blanco</td>
-              <td>100$</td>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
               <td><a><i class="fas fa-times"></i></a></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Aretes tipo oro metalico</td>
-              <td>100$</td>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
               <td><a><i class="fas fa-times"></i></a></td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td>Pulsera convinacion 3 oros </td>
-              <td>100$</td>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
               <td><a><i class="fas fa-times"></i></a></td>
             </tr>
             <tr>
-              <th scope="row">4</th>
-              <td>Reloj Marca Gucci</td>
-              <td>100$</td>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
               <td><a><i class="fas fa-times"></i></a></td>
             </tr>
             <tr class="total">
-              <th scope="row">5</th>
+              <th scope="row"></th>
               <td>Total</td>
-              <td>400$</td>
+              <td></td>
               <td></td>
             </tr>
           </tbody>
