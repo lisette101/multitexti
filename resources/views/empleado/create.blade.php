@@ -1,5 +1,5 @@
-/////--------duda----
-<form action="{{ url('/empleado') }}" method="post" enctype="multipart/form-data" >
+
+<form action="{{ url('/empleado') }}" method="get" enctype="multipart/form-data" >
     @csrf
 
     <label for="Nombre">Nombre</label>

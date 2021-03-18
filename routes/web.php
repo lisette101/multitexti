@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\EmpleadoController;
+use App\Http\Controllers\EmpleadosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,27 +41,38 @@ use App\Http\Controllers\EmpleadoController;
    Route::view('/carrito', 'carrito')->name('carrito');
    Route::view('/envio_formulario', 'envio_formulario')->name('envio_formulario');
 
+/*
 
+
+ Route::get('/empleado', function ()
+ {
+     return view('empleado.create');
+
+ });
  Route::get('/empleado', function ()
  {
      return view('empleado.index');
 
  });
-
-
- Route::get('/create', function ()
+ Route::get('/empleado', function ()
  {
-     return view('empleado.create');
+     return view('empleado.edit');
 
  });
+ Route::get('/empleado', function ()
+ {
+     return view('empleado.form');
 
+ });*/
 //Route::get('/empleado/create',[EmpleadoController::class,'create']);
 //Route::resource('empleado',EmpleadoController::class);
  //Route::resource('empleado', 'EmpleadoController');
 
- Route::post('empleado', 'EmpleadoController@create')->name('empleado.create');
- Route::post('empleado', 'EmpleadoController@index')->name('empleado.index');
- Route::post('empleado', 'EmpleadoController@store')->name('empleado.store');
+/*Route::get('empleado', 'EmpleadoController@create')->name('empleado.create');
+ Route::get('empleado', 'EmpleadoController@index')->name('empleado.index');
+ Route::get('empleado', 'EmpleadoController@store')->name('empleado.store');*/
+
+ //Route::get('empleado/','Empleado Controller@store');
 
 
 
